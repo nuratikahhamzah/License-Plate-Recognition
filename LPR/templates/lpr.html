@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="header">
+         <img class="logosynapse" src="{{ url_for('static', filename='logo.png') }}" height="80%" width="40%" style="padding: 10px" style="position: fixed;">
+    </div>
+
+  <div class="column">
+    <img src="{{ url_for('video_feed') }}" width="500" height="500"class="responsive" >
+  </div>
+
+  <div class="column">
+      <div class="table-responsive">
+            <table class="table" id="plates"> <!--id is comes form the custom.js-->
+                <thead>
+                    <tr>
+                        <td scope="col">Time</td>
+                        <td scope="col">Plate Image</td>
+                        <td scope="col">Plate Character</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+  </div>
+
+
+{% endblock %}
