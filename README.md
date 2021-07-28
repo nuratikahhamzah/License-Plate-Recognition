@@ -9,5 +9,3 @@ License Plate Recognition engine using Python.
 - observe the output.
 
 - to see the database you need to download the SQLiteStudio apps and open the Plate3 to observe the data store.
-- testing!
-- 
